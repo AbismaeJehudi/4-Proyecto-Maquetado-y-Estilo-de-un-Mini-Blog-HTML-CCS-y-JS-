@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/WEB.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, JavaScript</title>
+    <meta name="description" content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="ING. JUANCITO PEÑA">
+    <meta name="copyright" content="https://advisertecnology.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <div class="container">
+       <!--ENCABEZADO-->
+        <header>
+          <h1>Todo lo que tienes que sobre el Lenguaje de Marcas Hipertexto (HTML)</h1>
+        </header> 
+      <!--NAVEGACION-->
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Inicio</a>
+          <a href="sobremi.html">Sobre Mi</a>
+          <a href="curso.html">Cursos</a>
+          <a href="contactos.html">Contactos</a>
+         
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+        </div>
+      </nav>
+    <!--CONTENIDO-->
+    <section id="contenido">
+
+      <!--ARTICULOS-->
+      <article>
+        <h2>¿Qué es Lenguaje de etiquetas de Hipertexto (HTML)?</h2>
+        <hr>
+        <p class="Articulo1">
+          HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. 
+          Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para
+          describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
+  
+        <p class="Articulo1">
+          "Hipertexto" hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre 
+          sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y vincularlo a las páginas creadas
+          por otras personas, te conviertes en un participante activo en la «World Wide Web» (Red Informática Mundial).</p>
+       
+      </article> 
+    
+    <article>
+      <h2>Esqueleto de un documento HTML</h2>
+      <p class="Articulo1">
+        Un documento HTML, una página web, contiene un árbol de etiquetas, que tiene una organización básica. La etiqueta raíz de un documento HTML es html (ESto escrito dentro de signos de mayor y menor) y dentro tiene dos etiquetas principales:
+        head: con la información de cabecera de la página. Es información que en principio no aparecerá en el cuerpo de la página, pero que sirve para saber de qué trata la página, cómo deben interpretarla los distintos clientes web, etc.
+        body: que es la información del cuerpo, es decir, lo que se verá en el navegador cuando el usuario entre.
+        Además, hay algunas otras etiquetas básicas de control, como podemos ver en el siguiente esqueleto de documento HTML básico. </p>
+        
+        <img class="web" src="https://blog.hubspot.es/hubfs/media/estructurahtmlejemplo.png" alt="Aqui hay una imagen">
+        
+        <p class="Articulo1">
+          La primera etiqueta (DOCTYPE) indica el tipo de documento. Esta etiqueta debe estar siempre al principio. Fue definido y simplificado así desde HTML 5, ya que antes el doctype se expresaba con una etiqueta mucho mayor.
+          Posteriormente tenemos la etiqueta <html>, con el atributo "lang" opcional. En este caso hemos indicado que el idioma es español.
+          Luego encontramos el <head>, que tiene varias etiquetas. Las importantes son:
+          charset, siendo UTF-8 el recomendado. Lógicamente es importante que ese juego de caracteres se esté usando realmente al guardar el archivo con el código .html. Si usamos algún editor orientado a programadores seguramente se guarde con UTF-8 
+          o al menos tengas la opción de escoger este juego de carácteres.
+          Title, que es lo que mostrará el navegador en la pestaña donde se muestre esta página. También es muy importante para que Google y otros motores identifiquen bien el contenido.
+        
+      </article> 
+
+  <article>
+    <h2>Archivos HTML</h2>
+    <p class="Articulo1">
+      Los archivos HTML son ficheros de texto plano, que tienen extensión .html.
+      
+      Como archivos de texto deben estar escritos con un editor de código, como los que generalmente se usan para programación.
+      Por tanto, los archivos HTML no se deben escribir con programas de texto enriquecido como Word.
+    </p>
+    <p class="Articulo1">
+      La recomendación es que estos archivos se guarden con codificación UTF-8, que es el formato habitual de los editores de texto para programación. 
+      Este punto es fundamental en Windows ya que editores de texto plano como el "Bloc de Notas" generalmente usan otros juegos de caracteres.
+
+      Los archivos HTML se pueden almacenar en cualquier carpeta del ordenador y para abrir los generalmente es suficiente con hacer doble clic sobre ellos, 
+      con ello el ordenador los abrirá con el navegador predeterminado configurado en el equipo.</p>
+
+      <h2>Varios archivos HTML componen un sitio web</h2>
+      <p class="Articulo1">
+        Varios archivos HTML enlazados entre sí es lo que llamamos un sitio web. generalmente se encontrarán todos almacenados en la misma carpeta o en carpetas dependientes de un directorio principal.
+       
+       <br>   <br>
+
+       El archivo index.html de la carpeta principal es el documento raíz del sitio web, es decir, la portada o "home". Al index.html también se le llama documento por defecto o documento predeterminado
+       y es el que se carga en el acceso a una carpeta, si no se indica ningún otro nombre de archivo HTML al que se pretenda acceder.
+      </p>
+         
+    </article> 
+
+  <article>
+    <h2>Formularios HTML</h2>
+    <p class="Articulo1">
+      Los formularios son la manera más básica para que los usuarios puedan introducir datos en páginas web, ya sea para realizar aplicaciones o simples vías de contacto con visitantes. 
+    </p>
+
+      <p class="Articulo1">
+       Los formularios HTML son una de las partes más usadas del lenguaje. Permiten incluir componentes de interacción página-usuario, para introducir textos, seleccionar opciones o marcar casillas de verificación.
+      <br>
+      <br>
+      Básicamente se incluyen con una etiqueta (form) en la que se colocan diversas etiquetas para componentes, dentro de los cuales el más importante es (input), pero hay muchas otras como (select).   
+    </p>
+      
+      <p>
+        <a class="leermas" href="https://desarrolloweb.com/home/html" target="_blank" >Leer Mas</a>
+      </p>
+   
+    </article> 
+
+</section>
+
+        <!--PUBLICIDAD-->
+      
+        <aside>
+          <h2>Tus Anuncios Serán Más Visto Con Nosotros</h2>
+          <img src="https://peru.eiposgrados.com/wp-content/uploads/sites/10/2022/02/maestria-desarrollo-web-fullstack-1.gif" alt="Aqui hay una imagen gif">
+          <br>
+          <img src="https://www.tecnoschool.com.ar/img/gif-portadas-cursos/entrenamiento-en-programacion2.gif" alt="Aqui hay una imagen gif">
+          <br>
+          <img src="https://static.wixstatic.com/media/ee6ff4_1a2a2e0d79d94777b3e41dc898224144~mv2.gif/v1/fill/w_350,h_250,al_c,q_90/file.jpg" alt="Aqui hay una imagen gif">
+          <br>
+          
+          <iframe class="video"src="https://www.youtube.com/embed/MJkdaVFHrto" title="Aprende HTML ahora! curso completo GRATIS desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <br>
+          <button class="button">
+           
+            <a href="https://niveldecalidad.com/diseno-y-desarrollo-web/" target="_blank" > Ver Más Publicidad</a>
+          </button>
+        </aside>
+        
+        <div class="redes">
+          <h2>Sigueme en mi Redes Sociales</h2>
+
+          <!-- Agregamos font awesome icons -->
+           <a href="#" class="fa fa-linkedin-square"  style="font-size:30px"></a>
+           <a href="#" class="fa fa-youtube-square" style="font-size:30px"></a>
+           <a href="#" class="fa fa-facebook-square" style="font-size:30px"></a>
+           <a href="#" class="fa fa-twitter-square" style="font-size:30px"></a>
+           <a href="#" class="fa fa-github-square" style="font-size:30px"></a>
+      
+        </div>
+        <div class="clearfix" ></div>
+
+          <!--FOOTER O PIE DE PAGINA-->
+          <footer>
+            <p class="footer"> @ 2022 Creado por Jehudi Abismael Ozuna Diaz 
+          </footer>
+        </div>
+
+     <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
